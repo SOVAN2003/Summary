@@ -1,0 +1,116 @@
+body{
+    background: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: repeat;
+    background-size: 100% auto;
+}
+
+.jumbotron {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    background-color: #30E3CA;
+    opacity: 70%;
+    border-radius: 25px;
+    border: 2px solid #11999E;
+    padding: 20px;
+}
+
+.text_form{
+    border-radius: 25px;
+    border: 2px solid #11999E;
+    padding: 20px;
+    justify-content: center;
+    height: 300px;
+    width: 1200px;
+    margin-left: 170px;
+}
+
+.form-control{
+    border-radius: 25px;
+    border: 2px solid #11999E;
+    padding: 20px;
+    width: 1000px;
+    height: 500px;
+    color: #E4F9F5;
+    opacity: 90%;
+}
+
+.original_title{
+    color: #E4F9F5;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary_title{
+    color: #E4F9F5;
+    font-size:20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.srt{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    margin-top: -20px;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.originalTxt{
+    color: white;
+    background-color: #40514E;
+    padding: 20px;
+    opacity: 80%;
+}
+
+.summaryTxt{
+    color: white;
+    background-color: #11999E;
+    padding: 20px;
+    margin-left: 10px;
+    opacity: 80%;
+}
+
+.heading{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.lead{
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn{
+    margin-top: 100px;
+    margin-left: 20px ;
+    height: 50px;
+    width: 80px;
+}
+
+.btn {
+    color: #30E3CA;
+    text-transform: uppercase;
+    transition: .5s;
+    border-color: #30E3CA;
+  }
+  
+  .btn:hover {
+    background: #30E3CA;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #30E3CA,
+                0 0 25px #30E3CA,
+                0 0 50px #30E3CA,
+                0 0 100px #30E3CA;
+  }
+  
